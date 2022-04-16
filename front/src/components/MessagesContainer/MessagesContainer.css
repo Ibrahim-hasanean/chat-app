@@ -1,0 +1,19 @@
+.messages-container {
+  flex: 3 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.no-conversation {
+  justify-content: center;
+  align-items: center;
+  color: rgb(151, 143, 143);
+  font-weight: 500;
+  font-size: larger;
+}
+
+.messages-container::-webkit-scrollbar {
+  display: none;
+}

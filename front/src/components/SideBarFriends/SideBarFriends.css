@@ -1,0 +1,19 @@
+.side-bar-friends {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.side-bar-friends:hover {
+  background-color: rgb(233, 231, 231);
+}
+
+.side-bar-friends img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}

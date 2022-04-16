@@ -1,0 +1,35 @@
+.message-send {
+  flex: 1 1;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.message-send textarea {
+  height: 100%;
+  width: 80%;
+  outline: none;
+}
+.send-button-container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-send button {
+  border: 0;
+  padding: 10px;
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(35, 35, 243);
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  outline: none;
+}
+
+.message-send button:hover {
+  background-image: linear-gradient(rgb(35, 35, 243), rgb(65, 34, 236));
+}

@@ -1,0 +1,9 @@
+.bar {
+  height: 60px;
+  background-color: rgb(60, 60, 243);
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

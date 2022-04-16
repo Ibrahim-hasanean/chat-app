@@ -1,0 +1,34 @@
+.chat-page {
+  height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+}
+.friends-sideBar {
+  display: flex;
+  flex: 2;
+}
+
+.conversation {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+.chat-online {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  padding: 15px;
+}
+.chat-online h3 {
+  margin: 5px 0;
+  font-size: x-large;
+  color: #5050f9;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid gray;
+}

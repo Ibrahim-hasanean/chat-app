@@ -1,0 +1,53 @@
+.calling-popup {
+  position: fixed;
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 5px 5px 10px 5px #a9a4a4;
+  border-radius: 15px;
+  background: white;
+  top: 30%;
+}
+
+.calling-popup h4 {
+  text-align: center;
+  color: rgb(145, 142, 142);
+}
+
+.accept-video-button {
+  background: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.accept-video-button:hover {
+  background-image: linear-gradient(45deg, rgb(44 56 44), #c1c1c100);
+}
+
+.videos-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-decline-button {
+  background: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.video-decline-button:hover {
+  background-image: linear-gradient(45deg, black, transparent);
+}
